@@ -278,6 +278,17 @@ function isCreditCardNumber(/* ccn */) {
  */
 function getDigitalRoot(/* num */) {
   throw new Error('Not implemented');
+  // let sum = 0;
+  // const arr = String(num).split('');
+  // for (let i = 0; i < arr.length; i += 1) {
+  //   sum += Number(i);
+  // } if (sum > 9) {
+  //   let sum2 = 0;
+  //   const arr2 = String(sum2).split('');
+  //   for (let j = 0; j < arr2.length; j += 1) {
+  //     sum2 += Number(j);
+  //   } return sum2;
+  // } return sum;
 }
 
 
